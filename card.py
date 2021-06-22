@@ -22,3 +22,12 @@ try:
             print('There is no such action!!!')
 except:
     print('Incorrect data entered!')
+    print(card1.number, card1.money, card1.disc, card1.date)
+
+card1.buy_article(1000)
+card1.buy_article(1500)
+card1.buy_article(1500)
+print(card1.number, card1.money, card1.disc, card1.date)
+
+card1.discount_info()
+card1.discount_inc_info()
